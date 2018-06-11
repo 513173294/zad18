@@ -1,6 +1,6 @@
 public class ArrayComparator {
 
-    boolean compare(int[][] array1, int[][] array2) {
+   static boolean compare(int[][] array1, int[][] array2) {
         if (array1.length != array2.length) {
             return false;
         }
